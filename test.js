@@ -456,10 +456,11 @@ async function syncRecognizeModelSelection(
    * TODO(developer): Uncomment the following lines before running the sample.
    */
   // const filename = 'Local path to audio file, e.g. /path/to/audio.raw';
-  // const model = 'Model to use, e.g. phone_call, video, default';
-  // const encoding = 'Encoding of the audio file, e.g. LINEAR16';
-  // const sampleRateHertz = 16000;
-  // const languageCode = 'BCP-47 language code, e.g. en-US';
+  const filename = '/resources/audio.raw';
+  const model = 'video';
+  const encoding = 'LINEAR16';
+  const sampleRateHertz = 16000;
+  const languageCode = 'en-US';
 
   const config = {
     encoding: encoding,
