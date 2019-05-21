@@ -40,10 +40,10 @@ async function syncRecognize(
   /**
    * TODO(developer): Uncomment the following lines before running the sample.
    */
-  // const filename = '/resources/audio.raw';
-  const encoding = 'LINEAR16';
-  const sampleRateHertz = 16000;
-  const languageCode = 'en-US';
+  // const filename = 'Local path to audio file, e.g. /path/to/audio.raw';
+  // const encoding = 'Encoding of the audio file, e.g. LINEAR16';
+  // const sampleRateHertz = 16000;
+  // const languageCode = 'BCP-47 language code, e.g. en-US';
 
   const config = {
     encoding: encoding,
