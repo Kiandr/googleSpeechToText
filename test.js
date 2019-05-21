@@ -40,7 +40,7 @@ async function syncRecognize(
   /**
    * TODO(developer): Uncomment the following lines before running the sample.
    */
-  const filename = '/resources/audio.raw';
+  // const filename = '/resources/audio.raw';
   const encoding = 'LINEAR16';
   const sampleRateHertz = 16000;
   const languageCode = 'en-US';
